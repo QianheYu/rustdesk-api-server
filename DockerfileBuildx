@@ -1,5 +1,4 @@
 FROM --platform=$TARGETPLATFORM  alpine:latest
-MAINTAINER Baozi<admin@52nyg.com>
 # 使用变量必须申明
 ARG TARGETOS
 ARG TARGETARCH
